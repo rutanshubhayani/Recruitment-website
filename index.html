@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     </head>
     
     <body>
@@ -38,16 +41,16 @@
     <div id="header-placeholder"></div>
 
     <!-- ***** Main Banner Area Start ***** -->
-    <div class="main-banner" id="top">
-        <video autoplay muted loop id="bg-video">
+    <div class="main-banner" id="top" data-aos="fade-in">
+        <video autoplay muted loop id="bg-video" data-aos="zoom-in" data-aos-delay="300">
             <source src="assets/images/video.mp4" type="video/mp4" />
         </video>
 
-        <div class="video-overlay header-text">
+        <div class="video-overlay header-text" data-aos="fade-up" data-aos-delay="500">
             <div class="caption">
-                <h6>Your Career Journey Starts Here</h6>
-                <h2>Find the perfect <em>Job</em></h2>
-                <div class="main-button">
+                <h6 data-aos="fade-down" data-aos-delay="700">Your Career Journey Starts Here</h6>
+                <h2 data-aos="fade-up" data-aos-delay="900">Find the perfect <em>Job</em></h2>
+                <div class="main-button" data-aos="zoom-in" data-aos-delay="1100">
                     <a href="contact.html">Contact Us</a>
                 </div>
             </div>
@@ -56,7 +59,7 @@
     <!-- ***** Main Banner Area End ***** -->
 
    <!-- ***** Featured Jobs Start ***** -->
-    <section class="section" id="featured-jobs">
+    <section class="section" id="featured-jobs" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -70,7 +73,7 @@
             
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="job-card">
+                    <div class="job-card" data-aos="zoom-in">
                         <div class="job-header">
                             <div class="company-logo">
                                 <img src="assets/images/product-1-720x480.jpg" alt="Healthcare Plus">
@@ -103,7 +106,7 @@
                 </div>
                 
                 <div class="col-lg-4 col-md-6">
-                    <div class="job-card featured">
+                    <div class="job-card featured" data-aos="zoom-in" data-aos-delay="200">
                         <div class="featured-label">
                             <i class="fa fa-star"></i> Featured
                         </div>
@@ -139,7 +142,7 @@
                 </div>
                 
                 <div class="col-lg-4 col-md-6">
-                    <div class="job-card">
+                    <div class="job-card" data-aos="zoom-in" data-aos-delay="400">
                         <div class="job-header">
                             <div class="company-logo">
                                 <img src="assets/images/product-3-720x480.jpg" alt="Metro Hospital">
@@ -183,7 +186,7 @@
     </section>
     <!-- ***** Featured Jobs End ***** -->
 
-    <section class="section" id="about-section">
+    <section class="section" id="about-section" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -198,7 +201,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-content">
-                        <div class="about-item">
+                        <div class="about-item" data-aos="fade-right">
                             <div class="about-icon">
                                 <i class="fa fa-users" style="font-size: 48px; color: #ed563b; margin-bottom: 20px;"></i>
                             </div>
@@ -206,7 +209,7 @@
                             <p>Our experienced recruitment specialists work tirelessly to understand both employer needs and candidate aspirations, ensuring perfect matches.</p>
                         </div>
                         
-                        <div class="about-item" style="margin-top: 30px;">
+                        <div class="about-item" style="margin-top: 30px;" data-aos="fade-right" data-aos-delay="200">
                             <div class="about-icon">
                                 <i class="fa fa-trophy" style="font-size: 48px; color: #ed563b; margin-bottom: 20px;"></i>
                             </div>
@@ -217,7 +220,7 @@
                 </div>
                 
                 <div class="col-lg-6">
-                    <div class="about-image">
+                    <div class="about-image" data-aos="fade-left">
                         <img src="assets/images/about-image-4.jpeg" alt="About Us" style="width: 100%; border-radius: 10px; box-shadow: 0 15px 35px rgba(0,0,0,0.1);">
                     </div>
                 </div>
@@ -225,28 +228,28 @@
             
             <div class="row" style="margin-top: 60px;">
                 <div class="col-lg-3 col-md-6">
-                    <div class="stats-item text-center">
+                    <div class="stats-item text-center" data-aos="fade-up">
                         <i class="fa fa-briefcase" style="font-size: 36px; color: #ed563b; margin-bottom: 15px;"></i>
                         <h3 style="color: #ed563b; font-size: 48px; font-weight: 700; margin-bottom: 10px;">5000+</h3>
                         <p>Jobs Placed</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="stats-item text-center">
+                    <div class="stats-item text-center" data-aos="fade-up" data-aos-delay="100">
                         <i class="fa fa-building" style="font-size: 36px; color: #ed563b; margin-bottom: 15px;"></i>
                         <h3 style="color: #ed563b; font-size: 48px; font-weight: 700; margin-bottom: 10px;">500+</h3>
                         <p>Partner Companies</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="stats-item text-center">
+                    <div class="stats-item text-center" data-aos="fade-up" data-aos-delay="200">
                         <i class="fa fa-heart" style="font-size: 36px; color: #ed563b; margin-bottom: 15px;"></i>
                         <h3 style="color: #ed563b; font-size: 48px; font-weight: 700; margin-bottom: 10px;">98%</h3>
                         <p>Satisfaction Rate</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="stats-item text-center">
+                    <div class="stats-item text-center" data-aos="fade-up" data-aos-delay="300">
                         <i class="fa fa-clock-o" style="font-size: 36px; color: #ed563b; margin-bottom: 15px;"></i>
                         <h3 style="color: #ed563b; font-size: 48px; font-weight: 700; margin-bottom: 10px;">10+</h3>
                         <p>Years Experience</p>
@@ -265,7 +268,7 @@
     </section>
 
     <!-- ***** Blog Start ***** -->
-    <section class="section" id="blog-section">
+    <section class="section" id="blog-section" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -279,7 +282,7 @@
             
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
+                    <div class="blog-card" data-aos="fade-up">
                         <div class="blog-image">
                             <img src="assets/images/blog-image-1-940x460.jpg" alt="Interview Tips">
                             <div class="blog-category">Career Tips</div>
@@ -303,7 +306,7 @@
                 </div>
                 
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
+                    <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
                         <div class="blog-image">
                             <img src="assets/images/blog-image-2-940x460.jpg" alt="Networking">
                             <div class="blog-category">Professional Growth</div>
@@ -327,7 +330,7 @@
                 </div>
                 
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
+                    <div class="blog-card" data-aos="fade-up" data-aos-delay="400">
                         <div class="blog-image">
                             <img src="assets/images/blog-image-3-940x460.jpg" alt="Professional Skills">
                             <div class="blog-category">Skill Development</div>
@@ -363,7 +366,7 @@
     <!-- ***** Blog End ***** -->
 
     <!-- ***** Call to Action Start ***** -->
-    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -381,7 +384,7 @@
     <!-- ***** Call to Action End ***** -->
 
     <!-- ***** Testimonials Item Start ***** -->
-    <section class="section" id="testimonials-section">
+    <section class="section" id="testimonials-section" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -395,7 +398,7 @@
             
             <div class="row">
                 <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card" data-aos="fade-left">
                         <div class="testimonial-content">
                             <div class="quote-icon">
                                 <i class="fa fa-quote-left"></i>
@@ -422,7 +425,7 @@
                 </div>
                 
                 <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card" data-aos="fade-right">
                         <div class="testimonial-content">
                             <div class="quote-icon">
                                 <i class="fa fa-quote-left"></i>
@@ -449,7 +452,7 @@
                 </div>
                 
                 <div class="col-lg-6 col-md-6">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card" data-aos="fade-left" data-aos-delay="200">
                         <div class="testimonial-content">
                             <div class="quote-icon">
                                 <i class="fa fa-quote-left"></i>
@@ -476,7 +479,7 @@
                 </div>
                 
                 <div class="col-lg-6 col-md-6">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card" data-aos="fade-right" data-aos-delay="200">
                         <div class="testimonial-content">
                             <div class="quote-icon">
                                 <i class="fa fa-quote-left"></i>
@@ -531,6 +534,9 @@
     <script src="assets/js/imgfix.min.js"></script> 
     <script src="assets/js/mixitup.js"></script> 
     <script src="assets/js/accordions.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>

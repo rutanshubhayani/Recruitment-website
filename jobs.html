@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     </head>
     
     <body>
@@ -38,15 +41,15 @@
     <div id="header-placeholder"></div>
 
     <!-- ***** Call to Action Start ***** -->
-    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                    <div class="cta-content">
+                    <div class="cta-content" data-aos="zoom-in" data-aos-delay="200">
                         <br>
                         <br>
-                        <h2>Find Your Dream <em>Career</em></h2>
-                        <p>Discover exciting job opportunities across various industries. Your next career move starts here.</p>
+                        <h2 data-aos="fade-down" data-aos-delay="400">Find Your Dream <em>Career</em></h2>
+                        <p data-aos="fade-up" data-aos-delay="600">Discover exciting job opportunities across various industries. Your next career move starts here.</p>
                     </div>
                 </div>
             </div>
@@ -55,26 +58,26 @@
     <!-- ***** Call to Action End ***** -->
 
     <!-- ***** Jobs Section Start ***** -->
-    <section class="section" id="jobs-listing">
+    <section class="section" id="jobs-listing" data-aos="fade-up" data-aos-delay="200">
         <div class="container">
             <div class="row">
                 <!-- ***** Search & Filter Section ***** -->
-                <div class="col-lg-12">
+                <div class="col-lg-12" data-aos="fade-down" data-aos-delay="300">
                     <div class="job-search-section">
                         <div class="row">
-                            <div class="col-lg-4 col-md-6">
+                            <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="400">
                                 <div class="search-input-group">
                                     <i class="fa fa-search"></i>
                                     <input type="text" placeholder="Job title, keywords, or company">
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6">
+                            <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="500">
                                 <div class="search-input-group">
                                     <i class="fa fa-map-marker"></i>
                                     <input type="text" placeholder="City, state, or zip code">
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="fade-right" data-aos-delay="600">
                                 <button class="search-btn">
                                     <i class="fa fa-search"></i> Search Jobs
                                 </button>
@@ -86,12 +89,12 @@
 
             <div class="row" style="margin-top: 50px;">
                 <!-- ***** Filters Sidebar ***** -->
-                <div class="col-lg-3">
+                <div class="col-lg-3" data-aos="fade-right" data-aos-delay="400">
                     <div class="job-filters">
-                        <h4>Filter Jobs</h4>
+                        <h4 data-aos="fade-down" data-aos-delay="500">Filter Jobs</h4>
                         
                         <!-- Job Type Filter -->
-                        <div class="filter-group">
+                        <div class="filter-group" data-aos="fade-up" data-aos-delay="600">
                             <h5>Job Type</h5>
                             <div class="filter-options">
                                 <label class="filter-option">
@@ -118,7 +121,7 @@
                         </div>
 
                         <!-- Salary Range Filter -->
-                        <div class="filter-group">
+                        <div class="filter-group" data-aos="fade-up" data-aos-delay="700">
                             <h5>Salary Range</h5>
                             <div class="filter-options">
                                 <label class="filter-option">
@@ -145,7 +148,7 @@
                         </div>
 
                         <!-- Industry Filter -->
-                        <div class="filter-group">
+                        <div class="filter-group" data-aos="fade-up" data-aos-delay="800">
                             <h5>Industry</h5>
                             <div class="filter-options">
                                 <label class="filter-option">
@@ -177,7 +180,7 @@
                         </div>
 
                         <!-- Experience Level Filter -->
-                        <div class="filter-group">
+                        <div class="filter-group" data-aos="fade-up" data-aos-delay="900">
                             <h5>Experience Level</h5>
                             <div class="filter-options">
                                 <label class="filter-option">
@@ -203,15 +206,15 @@
                             </div>
                         </div>
 
-                        <div class="filter-actions">
+                        <div class="filter-actions" data-aos="fade-up" data-aos-delay="1000">
                             <button class="clear-filters">Clear All Filters</button>
                         </div>
                     </div>
                 </div>
 
                 <!-- ***** Jobs Listing ***** -->
-                <div class="col-lg-9">
-                    <div class="jobs-header">
+                <div class="col-lg-9" data-aos="fade-left" data-aos-delay="500">
+                    <div class="jobs-header" data-aos="fade-down" data-aos-delay="600">
                         <div class="results-info">
                             <h5>Showing 1-12 of 58 jobs</h5>
                         </div>
@@ -227,13 +230,13 @@
 
                     <div class="jobs-grid">
                         <!-- Job Card 1 -->
-                        <div class="job-listing-card">
+                        <div class="job-listing-card" data-aos="fade-up" data-aos-delay="700">
                             <div class="job-card-header">
                                 <div class="company-info">
-                                    <div class="company-logo">
+                                    <div class="company-logo" data-aos="zoom-in" data-aos-delay="800">
                                         <img src="assets/images/product-1-720x480.jpg" alt="HealthCare Plus">
                                     </div>
-                                    <div class="company-details">
+                                    <div class="company-details" data-aos="fade-right" data-aos-delay="900">
                                         <h3>Senior Cardiac Surgeon</h3>
                                         <p class="company-name">HealthCare Plus Medical Center</p>
                                         <div class="job-meta">
@@ -243,12 +246,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="job-actions">
+                                <div class="job-actions" data-aos="fade-left" data-aos-delay="1000">
                                     <div class="salary">$150,000 - $200,000</div>
                                     <button class="save-job"><i class="fa fa-heart-o"></i></button>
                                 </div>
                             </div>
-                            <div class="job-card-content">
+                            <div class="job-card-content" data-aos="fade-up" data-aos-delay="1100">
                                 <p>Lead our cardiovascular surgery team in a state-of-the-art medical facility. Excellent opportunity for experienced cardiac surgeons seeking to make a significant impact in patient care.</p>
                                 <div class="job-tags">
                                     <span>Healthcare</span>
@@ -264,14 +267,14 @@
                         </div>
 
                         <!-- Job Card 2 -->
-                        <div class="job-listing-card featured">
-                            <div class="featured-badge">Featured</div>
+                        <div class="job-listing-card featured" data-aos="fade-up" data-aos-delay="800">
+                            <div class="featured-badge" data-aos="zoom-in" data-aos-delay="850">Featured</div>
                             <div class="job-card-header">
                                 <div class="company-info">
-                                    <div class="company-logo">
+                                    <div class="company-logo" data-aos="zoom-in" data-aos-delay="900">
                                         <img src="assets/images/product-2-720x480.jpg" alt="MedAdmin">
                                     </div>
-                                    <div class="company-details">
+                                    <div class="company-details" data-aos="fade-right" data-aos-delay="1000">
                                         <h3>Physical Therapy Manager</h3>
                                         <p class="company-name">MedAdmin Rehabilitation Center</p>
                                         <div class="job-meta">
@@ -281,12 +284,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="job-actions">
+                                <div class="job-actions" data-aos="fade-left" data-aos-delay="1100">
                                     <div class="salary">$75,000 - $95,000</div>
                                     <button class="save-job saved"><i class="fa fa-heart"></i></button>
                                 </div>
                             </div>
-                            <div class="job-card-content">
+                            <div class="job-card-content" data-aos="fade-up" data-aos-delay="1200">
                                 <p>Oversee our physical therapy department and lead a team of dedicated therapists. Perfect role for experienced PT professionals with management aspirations.</p>
                                 <div class="job-tags">
                                     <span>Healthcare</span>
@@ -302,13 +305,13 @@
                         </div>
 
                         <!-- Job Card 3 -->
-                        <div class="job-listing-card">
+                        <div class="job-listing-card" data-aos="fade-up" data-aos-delay="900">
                             <div class="job-card-header">
                                 <div class="company-info">
-                                    <div class="company-logo">
+                                    <div class="company-logo" data-aos="zoom-in" data-aos-delay="1000">
                                         <img src="assets/images/product-3-720x480.jpg" alt="Pediatric Care">
                                     </div>
-                                    <div class="company-details">
+                                    <div class="company-details" data-aos="fade-right" data-aos-delay="1100">
                                         <h3>Pediatric Nurse Practitioner</h3>
                                         <p class="company-name">Children's Medical Group</p>
                                         <div class="job-meta">
@@ -318,12 +321,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="job-actions">
+                                <div class="job-actions" data-aos="fade-left" data-aos-delay="1200">
                                     <div class="salary">$85,000 - $105,000</div>
                                     <button class="save-job"><i class="fa fa-heart-o"></i></button>
                                 </div>
                             </div>
-                            <div class="job-card-content">
+                            <div class="job-card-content" data-aos="fade-up" data-aos-delay="1300">
                                 <p>Join our pediatric team providing comprehensive care to children and adolescents. Seeking compassionate NP with pediatric experience.</p>
                                 <div class="job-tags">
                                     <span>Healthcare</span>
@@ -339,13 +342,13 @@
                         </div>
 
                         <!-- Job Card 4 -->
-                        <div class="job-listing-card">
+                        <div class="job-listing-card" data-aos="fade-up" data-aos-delay="1000">
                             <div class="job-card-header">
                                 <div class="company-info">
-                                    <div class="company-logo">
+                                    <div class="company-logo" data-aos="zoom-in" data-aos-delay="1100">
                                         <img src="assets/images/product-4-720x480.jpg" alt="Lab Tech">
                                     </div>
-                                    <div class="company-details">
+                                    <div class="company-details" data-aos="fade-right" data-aos-delay="1200">
                                         <h3>Medical Laboratory Technician</h3>
                                         <p class="company-name">Diagnostic Solutions Lab</p>
                                         <div class="job-meta">
@@ -355,12 +358,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="job-actions">
+                                <div class="job-actions" data-aos="fade-left" data-aos-delay="1300">
                                     <div class="salary">$45,000 - $60,000</div>
                                     <button class="save-job"><i class="fa fa-heart-o"></i></button>
                                 </div>
                             </div>
-                            <div class="job-card-content">
+                            <div class="job-card-content" data-aos="fade-up" data-aos-delay="1400">
                                 <p>Perform complex laboratory tests and procedures in our modern facility. Great opportunity for detail-oriented professionals with lab experience.</p>
                                 <div class="job-tags">
                                     <span>Healthcare</span>
@@ -376,13 +379,13 @@
                         </div>
 
                         <!-- Job Card 5 -->
-                        <div class="job-listing-card">
+                        <div class="job-listing-card" data-aos="fade-up" data-aos-delay="1100">
                             <div class="job-card-header">
                                 <div class="company-info">
-                                    <div class="company-logo">
+                                    <div class="company-logo" data-aos="zoom-in" data-aos-delay="1200">
                                         <img src="assets/images/product-5-720x480.jpg" alt="Radiology">
                                     </div>
-                                    <div class="company-details">
+                                    <div class="company-details" data-aos="fade-right" data-aos-delay="1300">
                                         <h3>Radiology Technologist</h3>
                                         <p class="company-name">Advanced Imaging Center</p>
                                         <div class="job-meta">
@@ -392,12 +395,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="job-actions">
+                                <div class="job-actions" data-aos="fade-left" data-aos-delay="1400">
                                     <div class="salary">$55,000 - $70,000</div>
                                     <button class="save-job"><i class="fa fa-heart-o"></i></button>
                                 </div>
                             </div>
-                            <div class="job-card-content">
+                            <div class="job-card-content" data-aos="fade-up" data-aos-delay="1500">
                                 <p>Operate advanced imaging equipment and provide quality diagnostic services. Join our team of skilled radiology professionals.</p>
                                 <div class="job-tags">
                                     <span>Healthcare</span>
@@ -413,13 +416,13 @@
                         </div>
 
                         <!-- Job Card 6 -->
-                        <div class="job-listing-card">
+                        <div class="job-listing-card" data-aos="fade-up" data-aos-delay="1200">
                             <div class="job-card-header">
                                 <div class="company-info">
-                                    <div class="company-logo">
+                                    <div class="company-logo" data-aos="zoom-in" data-aos-delay="1300">
                                         <img src="assets/images/product-6-720x480.jpg" alt="Hospital Admin">
                                     </div>
-                                    <div class="company-details">
+                                    <div class="company-details" data-aos="fade-right" data-aos-delay="1400">
                                         <h3>Hospital Administrator</h3>
                                         <p class="company-name">Metro General Hospital</p>
                                         <div class="job-meta">
@@ -429,12 +432,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="job-actions">
+                                <div class="job-actions" data-aos="fade-left" data-aos-delay="1500">
                                     <div class="salary">$90,000 - $120,000</div>
                                     <button class="save-job"><i class="fa fa-heart-o"></i></button>
                                 </div>
                             </div>
-                            <div class="job-card-content">
+                            <div class="job-card-content" data-aos="fade-up" data-aos-delay="1600">
                                 <p>Lead hospital operations and strategic planning in a fast-paced healthcare environment. Ideal for experienced healthcare administrators.</p>
                                 <div class="job-tags">
                                     <span>Healthcare</span>
@@ -451,7 +454,7 @@
                     </div>
 
                     <!-- ***** Pagination ***** -->
-                    <div class="pagination-wrapper">
+                    <div class="pagination-wrapper" data-aos="fade-up" data-aos-delay="1700">
                         <nav>
                             <ul class="pagination pagination-lg justify-content-center">
                                 <li class="page-item disabled">
@@ -495,6 +498,9 @@
     <script src="assets/js/imgfix.min.js"></script> 
     <script src="assets/js/mixitup.js"></script> 
     <script src="assets/js/accordions.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>

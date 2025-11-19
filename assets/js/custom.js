@@ -284,6 +284,19 @@
 				}
 			});
 		});
+
+		// Initialize AOS with smooth configuration
+		AOS.init({
+			disable: false, // Enable on all devices
+			startEvent: 'DOMContentLoaded',
+			offset: 120, // Offset from top of element
+			delay: 0, // Global delay
+			duration: 600, // Animation duration
+			easing: 'ease-in-out', // Easing function
+			once: true, // Animation happens only once
+			mirror: false, // Don't animate out when scrolling past
+			anchorPlacement: 'top-bottom' // Trigger when element enters viewport
+		});
 	});
 
 })(window.jQuery);

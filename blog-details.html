@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     </head>
     
     <body>
@@ -37,15 +40,15 @@
     <!-- ***** Header Placeholder ***** -->
     <div id="header-placeholder"></div>
 
-    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                    <div class="cta-content">
+                    <div class="cta-content" data-aos="fade-up" data-aos-delay="200">
                         <br>
                         <br>
-                        <h2>Single <em>blog post</em></h2>
-                        <p>Dive deep into expert career advice and professional development insights that will help you succeed in today's competitive job market.</p>
+                        <h2 data-aos="fade-down" data-aos-delay="400">Single <em>blog post</em></h2>
+                        <p data-aos="fade-up" data-aos-delay="600">Dive deep into expert career advice and professional development insights that will help you succeed in today's competitive job market.</p>
                     </div>
                 </div>
             </div>
@@ -182,6 +185,9 @@
     <script src="assets/js/imgfix.min.js"></script> 
     <script src="assets/js/mixitup.js"></script> 
     <script src="assets/js/accordions.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
