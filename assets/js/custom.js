@@ -108,6 +108,16 @@
 			.catch(error => console.error('Error loading header:', error));
 	}
 
+	// Include Footer
+	function loadFooter() {
+		fetch('footer.html')
+			.then(response => response.text())
+			.then(data => {
+				document.getElementById('footer-placeholder').innerHTML = data;
+			})
+			.catch(error => console.error('Error loading footer:', error));
+	}
+
 	// Set active menu item
 	function setActiveMenuItem() {
 		var currentPage = window.location.pathname.split('/').pop();
@@ -124,6 +134,9 @@
 	$(document).ready(function() {
 		if (document.getElementById('header-placeholder')) {
 			loadHeader();
+		}
+		if (document.getElementById('footer-placeholder')) {
+			loadFooter();
 		}
 	});
 
@@ -287,15 +300,15 @@
 
 		// Initialize AOS with smooth configuration
 		AOS.init({
-			disable: false, // Enable on all devices
+			disable: false,
 			startEvent: 'DOMContentLoaded',
-			offset: 120, // Offset from top of element
-			delay: 0, // Global delay
-			duration: 600, // Animation duration
-			easing: 'ease-in-out', // Easing function
-			once: true, // Animation happens only once
-			mirror: false, // Don't animate out when scrolling past
-			anchorPlacement: 'top-bottom' // Trigger when element enters viewport
+			offset: 120,
+			delay: 0, 
+			duration: 550,
+			easing: 'ease-in-out',
+			once: true, 
+			mirror: false,
+			anchorPlacement: 'top-bottom' 
 		});
 	});
 
